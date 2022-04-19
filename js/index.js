@@ -1,7 +1,1 @@
-
-
-const heroSlider = new Swiper('.hero__slider', {
-    loop: true,
-}
-
-);
+const swiper = new Swiper('.hero__slider')
