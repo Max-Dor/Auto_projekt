@@ -44,14 +44,17 @@
     justify-content: space-between;
     align-items:center;
 }
-.header__button{
+.header__btn{
     margin-left: 20px;
     color: var(--main-text-color);
     background-color: var(--main-bg-color);
     border: none;
     border-radius: 10rem;
     background: linear-gradient(#0085FF,#0000FF,#0085FF);
-    padding: 8px 30px;
+    padding: 6px 8px;
+
+}
+.btn__content{
     font-size: 18px;
     font-weight: 400;
 }

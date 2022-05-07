@@ -17,9 +17,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 50px;
 }
 .advantage__item-heading{
-    max-width: 45%;
+    max-width: 40%;
     display: flex;
     align-items: center;
 }
@@ -36,4 +37,27 @@
     border: 1px solid #474747;
     flex-shrink: 0;
     margin-right: 100px;  
+}
+.advantage__item-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.advantage__item-text{
+    width: 50%;
+    font-size: 18px;
+    font-weight: 400;
+}
+.advantage__item-link{
+    position: relative;
+    font-weight: 700;
+}
+.advantage__item-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,#0085FF 0%,#00E0FF 100%);
+    box-sizing: 0.2rem 0.2rem 0.4rem #000;
 }

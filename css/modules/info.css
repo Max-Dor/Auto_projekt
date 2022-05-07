@@ -21,7 +21,7 @@
     width: 120px;
     height: 10px;
     border-radius: 30px;
-    border: 4px solid #343434;
+    border: 2px solid #343434;
     background: linear-gradient(0deg,#1E1E1E,#1E1E1E),#c4c4c4;
     box-shadow: 1px 1px 1px rgba(50,50,50,.55),inset 0 0 20px #000;
 }
@@ -56,9 +56,13 @@
     align-content: center;
     width: 100%;
     height: 100%;
+    top: 50%;
+    left: 50%;
+    padding: 4px;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     border: 22px solid #232323;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     color: var(--main-text-color);
     background: linear-gradient(135.25deg,#1E1E1E 15.97%,#242424 86.15%);
@@ -67,7 +71,7 @@
     z-index: 1;
 }
 .number{
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 700;
 }
 .number__text-title{
